@@ -1,0 +1,219 @@
+/* styles.css */
+
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Sansita", sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+  }
+  
+  /* Header and Navigation */
+  .navbar {
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .navbar ul {
+    font-family: "Sansita", sans-serif;
+    list-style-type: none;
+  }
+  
+  .navbar ul li {
+    font-family: "Sansita", sans-serif;
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  .navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  .navbar ul li a:hover{ color: #cc190c;}
+  .navbar h2{ color: #cc190c;
+
+  }
+  
+  /* Hero Section */
+  .hero {
+    /* background-image: url('hero-banner.jpg'); Replace with your image */
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    justify-content:right;
+    align-items:center;
+    color: white;
+    text-align: center;
+     background-image: image-set(url(imgs/rrrrrrrrrrr.png)); 
+
+  }
+
+
+  
+  
+  .hero-content {
+    /* background-color: rgba(0, 0, 0, 0.6); */
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 8px;
+    /* background-image: image-set(url(imgs/rrrrrrrrrrr.png));
+   */}
+  
+  .hero h1 {
+    font-size: 3rem;
+  }
+  
+  .hero p {
+    font-size: 1.5rem;
+  }
+  
+  .btn {
+    background-color: #cc190c;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background-color: black;
+  }
+  
+
+
+  
+  /* Featured Products Section */
+  .featured-products {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #fff;
+  }
+  
+  .featured-products h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+  }
+  
+  .product-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .product {color: white;
+    background-color: #cc190c;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    text-align: center;
+  }
+  
+  .product img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .product h3 { 
+    color: white;
+    margin-top: 15px;
+    font-size: 1.2rem;
+  }
+  
+  .product p {
+    margin-top: 10px;
+    font-size: 1.1rem;
+  }
+  
+  .product .btn {
+    border: 1px solid black;
+    background-color: #cc190c;
+    margin-top: 15px;
+  }
+  .product .btn:hover{
+   
+    background-color: black;
+  }
+  
+  /* About Us Section */
+  .about-us {
+    padding: 50px;
+    background-color: #cc190c;
+    text-align: center;
+  }
+  
+  .about-us h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .about-us p {
+    font-size: 1.2rem;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  
+  /* Contact Us Section */
+  .contact-us {
+    padding: 50px;
+    background-color: ;
+    text-align: center;
+  }
+  
+  .contact-us h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .contact-us form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .contact-us input,
+  .contact-us textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+  }
+  
+  .contact-us button {
+    padding: 15px 30px;
+    background-color: #cc190c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .contact-us button:hover {
+    background-color: black;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+    color: white;
+  }
+  
+
+
+ 
+
+
+
+
+  
