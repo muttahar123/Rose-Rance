@@ -15,6 +15,7 @@ body {
 /* Header and Navigation */
 .navbar {
   background-color: rgba(0, 0, 0, 0.8);
+  font-size: 25px;
   padding: 15px;
   position: fixed;
   width: 100%;
@@ -29,14 +30,14 @@ body {
 .navbar ul {
   list-style-type: none;
   display: flex;
-  justify-content: flex-end;
+  justify-content:center;
   align-items: center;
 }
 
 .navbar h2 {
   color: #cc190c;
   font-family: 'Playfair Display', serif;
-  font-size: 24px;
+  font-size: 45px;
   margin-right: auto;
   animation: fadeIn 1s ease-out;
 }
@@ -48,7 +49,7 @@ body {
 .navbar ul li a {
   color: white;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 25px;
   transition: color 0.3s ease;
 }
 
@@ -111,8 +112,8 @@ body {
 }
 
 .btn {
-  background-color: #cc190c;
-  color: white;
+  background-color: black;
+  color: #cc190c;
   padding: 12px 25px;
   border-radius: 30px;
   text-decoration: none;
@@ -122,7 +123,7 @@ body {
 }
 
 .btn:hover {
-  background-color: #a51409;
+  background-color: white;
   transform: translateY(-3px);
 }
 
@@ -155,9 +156,9 @@ body {
 }
 
 .sale-image {
-  max-width: 80%;
-  height: auto;
-  animation: float 3s ease-in-out infinite;
+  max-width: 60%;
+  height: 80%;
+  animation: float 5s ease-in-out infinite;
 }
 
 @keyframes float {
@@ -176,14 +177,14 @@ body {
 .featured-products {
   padding: 80px 0;
   text-align: center;
-  background-color: #fff;
+  background-color: black;
 }
 
 .featured-products h2 {
   font-size: 2.5rem;
   margin-bottom: 50px;
   font-family: 'Playfair Display', serif;
-  color: #333;
+  color: white;
   animation: fadeIn 1s ease-out;
 }
 
@@ -195,7 +196,7 @@ body {
 }
 
 .product {
-  background-color: #fff;
+  background-color: #cc190c;
   padding: 30px;
   border-radius: 10px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
@@ -235,14 +236,14 @@ body {
 .product h3 {
   margin-top: 20px;
   font-size: 1.5rem;
-  color: #333;
+  color: black;
   font-family: 'Playfair Display', serif;
 }
 
 .product p {
   margin-top: 10px;
   font-size: 1.2rem;
-  color: #cc190c;
+  color: black;
   font-weight: bold;
 }
 
@@ -261,7 +262,7 @@ body {
   font-size: 2.5rem;
   margin-bottom: 30px;
   font-family: 'Playfair Display', serif;
-  color: #fff;
+  color: white;
   animation: fadeIn 1s ease-out;
 }
 
@@ -270,7 +271,7 @@ body {
   max-width: 800px;
   margin: 0 auto;
   line-height: 1.8;
-  color: #fff;
+  color: black;
   animation: fadeIn 1s ease-out 0.5s;
   opacity: 0;
   animation-fill-mode: forwards;
@@ -279,7 +280,7 @@ body {
 /* Contact Us Section */
 .contact-us {
   padding: 80px 0;
-  background-color: #fff;
+  background-color: black;
   text-align: center;
 }
 
@@ -287,7 +288,7 @@ body {
   font-size: 2.5rem;
   margin-bottom: 30px;
   font-family: 'Playfair Display', serif;
-  color: #333;
+  color: white;
   animation: fadeIn 1s ease-out;
 }
 
@@ -324,8 +325,8 @@ body {
 footer {
   text-align: center;
   padding: 30px;
-  background-color: #333;
-  color: white;
+  background-color: #cc190c;
+  color: black;
 }
 
 /* Responsive Design */
